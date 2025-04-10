@@ -1,8 +1,8 @@
 <?php
 $servidor ="localhost";
 $usuario = "root";
-$senha = "123456";
-$dbname="face";
+$senha = "";
+$dbname="site";
 
 $conexao=mysqli_connect($servidor, $usuario, $senha, $dbname);
 if(!$conexao){
